@@ -1,5 +1,6 @@
 package com.example.notessqlite
 
+import NotesAdapter
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
