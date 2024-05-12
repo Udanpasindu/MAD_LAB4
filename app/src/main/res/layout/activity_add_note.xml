@@ -17,7 +17,7 @@
         android:fontFamily="monospace"
         android:text="Add Note"
         android:textColor="@color/orange"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
     <ImageView
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
@@ -31,20 +31,19 @@
         android:id="@+id/titleEdittext"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="enter the tittle"
+        android:hint="Enter the title"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@id/addNoteHeading"
         android:background="@drawable/orange_border"
         android:layout_marginTop="16dp"
         android:maxLines="1"
-
         />
     <EditText
-        android:id="@+id/contendEditText"
+        android:id="@+id/contentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="enter the description"
+        android:hint="Enter the description"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"

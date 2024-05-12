@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Notes SQLite</string>
+    <string name="app_name">Task Management Application</string>
+    <string name="notes">Notes.</string>
+    <string name="title">Title.</string>
+    <string name="content">Content</string>
+    <string name="desc">Enter the description</string>
+    <string name="enterTitle">Enter the title</string>
+    <string name="EditNote">Edit Note.</string>
+    <string name="AddNote">Add Note.</string>
 </resources>

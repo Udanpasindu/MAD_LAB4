@@ -5,9 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bac2"
     android:orientation="vertical"
-    android:padding="16dp">
-    <!--tools:context=".UpdateNoteActivity">-->
+    android:padding="16dp"
+    tools:context=".UpdateNoteActivity">
 
     <TextView
         android:id="@+id/editNoteHeading"
@@ -16,7 +17,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:text="Edit Note."
-        android:textColor="@color/orange"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:textSize="24dp" />
 
     <ImageView
@@ -35,6 +37,7 @@
         android:hint="Enter the title"
         android:padding="12dp"
         android:textSize="20sp"
+        android:textColor="@color/white"
         android:layout_below="@id/editNoteHeading"
         android:background="@drawable/orange_border"
         android:layout_marginTop="16dp"
@@ -48,10 +51,9 @@
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
+        android:textColor="@color/white"
         android:layout_below="@id/updateTitleEditText"
         android:background="@drawable/orange_border"
         android:layout_marginTop="12dp" />
-
-
 
 </RelativeLayout>
